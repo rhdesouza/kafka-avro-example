@@ -1,0 +1,10 @@
+{
+  "type": "record",
+  "name": "PessoaDTO",
+  "namespace": "com.br.estudo.avrokafka.example.entity",
+  "fields" : [
+    {"name": "nome", "type": "string"},
+    {"name": "sobrenome", "type": "string"},
+    {"name": "idade", "type": "int"}
+  ]
+}
